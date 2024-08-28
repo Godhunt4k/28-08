@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="my form2">
+        Form:
+        <input type="text name="n" placeholder="Enter name">
+        <br><br>
+        <!--Password is use for password-->
+        Enter password:
+        <input type="password" name="passwd" placeholder="Enter passwd" size="50px" maxlength="8">
+        <br><br>
+        <!--Date is use to show the Date
+        Its has min, max attribute for calander settings-->
+        DOB:
+        <input type="date" name="d" min="2024-05-15" max="2024-10-20">
+        <br><br>
+        <!--File upload is use for upload your any file
+        multiple attribute is used for selecting multiple files-->
+        File upload:
+        <input type="file" name="f" multiple>
+        <br><br>
+        <!--Radio use for Gender define
+        its attributes value, checked= its is use for default check
+        -->
+        Gender:
+        <input type="radio" name="r" value="Male">Male
+        <input type="radio" name="r" value="Female" checked>Female
+        <br><br>
+        <!--Checkbox is use for give example-->
+        Tick:
+        <input type="checkbox" name="c" value="Java">Java
+        <input type="checkbox" name="c" value="php">php
+        <input type="checkbox" name="c" value="C++">C++
+        <input type="checkbox" name="c" value="react">react
+        <input type="checkbox" name="c" value="python">python
+        <br><br>
+        <!--Address <textarea> tag and its attribute 1. cols -->
+        Address:
+        <textarea name="ad" rows="5" cols="40" placeholder="Enter Address"></textarea>
+        <textarea name="ad" rows="5" cols="40" placeholder="Enter Address" readonly>
+            chotpur
+        </textarea>
+        <br><br>
+        <!--<select> tAG is use for make a form of selecting year-->
+        Select Year:
+        <select name="yeardata">
+            <option>---year---</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+        </select>
+        <!--disabled selected attribute is used for diabled the year tittle for seleccting-->
+        <select name="yeardata">
+            <option disabled selected>---year---</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+        </select>
+        <br><br>
+        <!--for making form submission we use <button> tag-->
+        <input type="submit" value="send">
+        <button type="submit">Login</button>
+        <input type="reset" name="re" value="reset">
+    </form>
+    <br>
+    <!--<button> tag is always used in outside the <form> tag-->
+    <button>click</button>
+    <button type="button">click here</button>
+</body>
+</html>
